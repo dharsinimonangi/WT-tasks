@@ -17,7 +17,3 @@ This is my personal portfolio website developed using HTML5 and CSS3.
 * HTML5
 * CSS3
 
-## Author
-
-Monangi Dharsini
-
