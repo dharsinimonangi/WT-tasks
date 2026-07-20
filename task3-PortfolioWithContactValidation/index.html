@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Monangi Dharsini</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+
+            <img src="dharsinii.jpeg" alt="Profile Image" class="profile-img">
+
+            <h1>Monangi Dharsini</h1>
+
+            <p>III B.Tech Information Technology | ANITS</p>
+
+            <p class="tagline">
+                Passionate about Web Development, Programming, and Building Creative Digital Solutions.
+            </p>
+
+            <a href="#contact" class="btn">Get In Touch</a>
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I am <strong>Monangi Dharsini</strong>, a third-year Information Technology student at
+                Anil Neerukonda Institute of Technology and Sciences (ANITS).
+            </p>
+
+            <p>
+                I enjoy developing responsive websites, learning modern technologies,
+                and improving my programming skills through projects and coding practice.
+            </p>
+
+            <p>
+                 I aim to become a skilled Software Developer and contribute to
+            innovative projects that create real-world impact.
+            </p>
+
+        </section>
+
+       <section id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>MongoDB</li>
+            </ul>
+        </div>
+
+        <div class="skill-box">
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+                <li>Leadership</li>
+                <li>Adaptability</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+       <section id="education">
+
+    <h2>Education</h2>
+
+    <div class="education-container">
+
+        <div class="edu-card">
+            <h3>B.Tech - Information Technology</h3>
+            <p>ANITS, Visakhapatnam</p>
+            <p>2024 - Present</p>
+            <p>CGPA: 9.28</p>
+        </div>
+
+        <div class="edu-card">
+            <h3>Intermediate</h3>
+            <p>Board of Intermediate Education</p>
+            <p>2022 - 2024</p>
+        </div>
+
+        <div class="edu-card">
+            <h3>SSC</h3>
+            <p>Board of Secondary Education</p>
+            <p>Completed in 2022</p>
+        </div>
+
+    </div>
+
+</section>
+        <!-- Projects Section -->
+        <section id="projects">
+
+            <h2>Projects</h2>
+
+            <div class="project-container">
+
+                <div class="card">
+
+                    <h3>VibeNet Social Media Platform</h3>
+
+                    <p>
+                        Developed a social media application that allows users to create profiles,
+                        share posts and interact with others.
+                    </p>
+
+                    <a href="https://github.com/dharsinimonangi/Vibenet_social_media_platform" target="_blank">
+                        View Project
+                    </a>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>TaskFlow Task Management System</h3>
+
+                    <p>
+                        Built a task management application for organizing tasks,
+                        tracking progress and managing deadlines.
+                    </p>
+
+                    <a href="https://github.com/dharsinimonangi/taskflow-task-management-tool" target="_blank">
+                        View Project
+                    </a>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>ShopVerse E-Commerce Website</h3>
+
+                    <p>
+                        Developed an online shopping platform with product listings,
+                        cart functionality and responsive design.
+                    </p>
+
+                    <a href="https://github.com/dharsinimonangi/ShopVerse_Simple_E-commerce_Store" target="_blank">
+                        View Project
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form id="contactForm">
+
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <span id="nameError"></span>
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <span id="emailError"></span>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject">
+                <span id="subjectError"></span>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5"></textarea>
+                <span id="messageError"></span>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>&copy; 2026 Monangi Dharsini. All Rights Reserved.</p>
+
+        <p>Email: dharsinimonangi@gmail.com</p>
+
+        <div class="social-links">
+            <a href="https://github.com/dharsinimonangi" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/dharsini-monangi-5930293b5/" target="_blank">LinkedIn</a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
