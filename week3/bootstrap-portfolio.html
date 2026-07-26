@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharsini Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background:#f8fafc;
+        }
+
+        .hero{
+            background:linear-gradient(135deg,#2563eb,#7c3aed);
+            color:white;
+            padding:100px 20px;
+            text-align:center;
+        }
+
+        .hero img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            border:5px solid white;
+            object-fit:cover;
+            margin-bottom:20px;
+        }
+
+        .section-title{
+            text-align:center;
+            margin-bottom:30px;
+            font-weight:bold;
+            color:#2563eb;
+        }
+
+        .skill-card{
+            transition:0.3s;
+        }
+
+        .skill-card:hover{
+            transform:translateY(-8px);
+        }
+
+        .project-card{
+            transition:0.3s;
+        }
+
+        .project-card:hover{
+            transform:scale(1.03);
+        }
+
+        footer{
+            background:#111827;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                Monangi Dharsini
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+<section class="hero text-center text-white">
+    <div class="container">
+
+        <div class="profile-circle">
+            MD
+        </div>
+
+        <h1 class="fw-bold mt-3">Monangi Dharsini</h1>
+
+        <p class="lead">
+            B.Tech Information Technology Student
+        </p>
+
+        <a href="#contact" class="btn btn-light btn-lg">
+            Contact Me
+        </a>
+
+    </div>
+</section>
+
+    <!-- About -->
+    <section class="container my-5">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="card shadow p-4">
+            <p>
+                I am a third-year Information Technology student at ANITS.
+                I am passionate about Web Development, Programming,
+                and building modern applications.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="container my-5">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card shadow text-center p-4 skill-card">
+                    HTML
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow text-center p-4 skill-card">
+                    CSS
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow text-center p-4 skill-card">
+                    JavaScript
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow text-center p-4 skill-card">
+                    Python
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="container my-5">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow p-3 project-card">
+                    <h5>Portfolio Website</h5>
+                    <p>Personal portfolio showcasing skills and projects.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-3 project-card">
+                    <h5>ShopVerse</h5>
+                    <p>E-Commerce website with product listings and cart.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-3 project-card">
+                    <h5>VibeNet</h5>
+                    <p>Social media application with posts and profiles.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container my-5" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="card shadow p-4">
+            <p><strong>Email:</strong> dharsinimonangi@gmail.com</p>
+            <p><strong>Phone:</strong> 9876543210</p>
+            <p><strong>Location:</strong> Visakhapatnam, Andhra Pradesh</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Monangi Dharsini | Portfolio Website</p>
+    </footer>
+
+</body>
+</html>
